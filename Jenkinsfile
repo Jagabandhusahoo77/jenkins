@@ -23,7 +23,7 @@ pipeline {
         stage('Success') {
             steps {
                 echo 'Pipeline executed successfully 🚀'
-            }
+                echo 'PR change added 🔥'   // 👈 ADD THIS LINE }
         }
     }
 }
